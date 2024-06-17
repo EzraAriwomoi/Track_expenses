@@ -1,7 +1,12 @@
 import 'dart:developer';
 import 'package:bloc/bloc.dart';
 
-
+class SimpleBlocObserver extends BlocObserver {
+  @override
+	void onCreate(BlocBase bloc) {
+    super.onCreate(bloc);
+    log('onCreate -- bloc: ${bloc.runtimeType}');
+  }
 
   @override
   void onEvent(Bloc bloc, Object? event) {
