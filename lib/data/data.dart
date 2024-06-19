@@ -9,7 +9,13 @@ List<Map<String, dynamic>> transactionsData = [
     'totalAmount': '-\$45.00',
     'date': 'Today',
   },
- 
+  {
+    'icon': const FaIcon(FontAwesomeIcons.bagShopping, color: Colors.white),
+    'color': Colors.purple,
+    'name': 'Shopping',
+    'totalAmount': '-\$230.00',
+    'date': 'Today',
+  },
   {
     'icon': const FaIcon(FontAwesomeIcons.heartCircleCheck, color: Colors.white),
     'color': Colors.green,
